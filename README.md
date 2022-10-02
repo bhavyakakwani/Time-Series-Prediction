@@ -12,8 +12,6 @@ A time series is very frequently plotted via a run chart (which is a temporal li
 
 Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data. Time series forecasting is the use of a model to predict future values based on previously observed values. While regression analysis is often employed in such a way as to test relationships between one or more different time series, this type of analysis is not usually called "time series analysis", which refers in particular to relationships between different points in time within a single series. Interrupted time series analysis is used to detect changes in the evolution of a time series from before to after some intervention which may affect the underlying variable.
 
-This repository helps in performing time series prediction on Road Dataset of nearly 25Kms
-
 # Goal
 
 To predict Parameters 9-13 from the given dataset for every Section with the best accuracy.
@@ -33,6 +31,9 @@ To predict Parameters 9-13 from the given dataset for every Section with the bes
 
 # Methodology Used
 
-Transformed the Data into Train and Test Dataset, by extracting 10th year data for para 9-13 for every section.
-Applied Extra Regressor Model to implement random forest and predicted the values
+* Transformed the Data into Train and Test Dataset, by extracting 10th year data for para 9-13 for every section.
+
+* Applied Extra Regressor Model to implement random forest and predicted the values.
+
+* Calculated RMSE for the predicted values and plotted the graphs.
 
